@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("26847865"))
+API_HASH = getenv("0ef9fdd3e5f1ed49d4eb918a07b8e5d6")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7350676839:AAH3Y342yqdxoAlaeKemykq_HDXwvrMCnEQ")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID"," -1002240395993"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6789146594))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jn_Bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/jn_family")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,11 +62,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", "BAGZqnkAt5U5V5U6bxU-TLQPao-0T8kFLhIvgZT_5uDKo3pStQjpgzyW93UgBDPiyozY0uafKGXHtxN8W3E8HFDUlyQqiRTQjFyW2zuYBrD-aV0rT5PCzMd3vEIqWWEVNS5ricJ_jRLhVuxt1pBw0oSVkOCcd4AqAO_DbMip6h5zigvz7Af9U48LgNX9c8ZeajOBTrzgMh722sCdbSXsd-Ag1o8qxicDMHIAwT8Eqeyalh9FLA5pudiQ88oR4mFhThgjUw7If6hCF7LUbksmwDTxb6RDU-Fp6o4Dq_6f8c9WCcQWuZjsbt0QZRNMLuvKKQCeLIBPlUtiAOs9hHEoP0WHA1MbKgAAAAGUqifiAA")
+STRING2 = STRING1
+STRING3 = STRING1
+STRING4 = STRING1
+STRING5 = STRING1
 
 
 BANNED_USERS = filters.user()
